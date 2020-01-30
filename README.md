@@ -24,17 +24,17 @@ A primeira tela é composta de card's com as informações de Nome, Status e Gen
 A segunda tela mostramos como funciona a interação do usuário ao utilizar um dos filtros, nesse caso 
 escolhemos o "Filter Gender", junto a ação de filtrar também aparece a informação de uma cálculo de % relacionada a opção escolhida de filtro.
 
-![Protótipo](prototipo01.jpeg)
+![Protótipo](./images/prototipo01.jpeg)
 
-![Protótipo](prototipo02.jpeg)
+![Protótipo](./images/prototipo02.jpeg)
 
 ## 3. Perfil dos usuários:
 Foram escolhidos duas personas para inicialização do projeto:
 
-![Personas](personas.jpeg)
+![Personas](./images/personas.jpeg)
 
 ## 4. Histórias de usuários:
-![HistoriaUsuario](HistoriaUsuario.jpeg)
+![HistoriaUsuario](./images/HistoriaUsuario.jpeg)
 
 ## 5. Considerações finais
 

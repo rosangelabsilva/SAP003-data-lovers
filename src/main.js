@@ -29,12 +29,11 @@ function menuGender(data) {
   });
 
   genderFilter.innerHTML = "";
-  genderFilter.innerHTML = "<option value =\"none\">Filter Gender</option>";
+  genderFilter.innerHTML = "<option value =\'none\'>Filter Gender</option>";
   genderFilter.innerHTML += rickandmortygender.map(item =>
     `<option value="${item}">${item}</option>`).join("");
 
 }
-
 
 function selectionCard(arr) {
   const mostrarCardsDiv = document.getElementById("main");
@@ -92,7 +91,7 @@ const search = document.getElementById("btn-search");
 let textName = document.getElementById("search-character");
 search.addEventListener("click", () => {
   const searchCharacter = app.filterName(data, textName.value.toUpperCase());
-  if(searchCharacter == ""){
+  if (searchCharacter == "") {
     return statistic.innerHTML = "Character not found.",
     event.preventDefault(),
     clearCards();
@@ -106,7 +105,7 @@ search.addEventListener("click", () => {
 function clearCards() {
   const node = document.getElementById("main");
   while (node.hasChildNodes()) {
-      node.removeChild(node.lastChild);
+    node.removeChild(node.lastChild);
   }
 };
 
